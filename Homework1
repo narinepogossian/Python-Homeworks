@@ -1,0 +1,15 @@
+#delete the elements that are equal in value
+def remove_elements(data,value):
+  size = len(data)
+  i = 0
+  while i < len(data):
+   if data[i] == value:
+       data.remove(value)
+   i += 1
+  return data
+  
+  if size == len(data):
+     raise ValueError
+  
+ 
+  print(remove_elements([7,2,3,4,7],7))
