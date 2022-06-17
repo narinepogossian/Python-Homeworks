@@ -1,0 +1,11 @@
+#sum of integer numbers from a to b
+def sum_of_ints(a,b):
+ sum = a 
+ count = a + 1
+ while count <= b:
+     sum += count
+     count += 1 
+ return sum
+ 
+ print(sum_of_ints(3,7))
+     
