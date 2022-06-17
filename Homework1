@@ -1,15 +1,14 @@
-#delete the elements that are equal in value
-def remove_elements(data,value):
-  size = len(data)
-  i = 0
-  while i < len(data):
-   if data[i] == value:
-       data.remove(value)
-   i += 1
-  return data
-  
-  if size == len(data):
-     raise ValueError
-  
- 
-  print(remove_elements([7,2,3,4,7],7))
+#the sum of quadras of 2 max numbers
+def sum_of_quadr(a,b,c):
+    if a > c and b > c: 
+      return a**2 + b**2
+    
+    elif a > b and c > b:
+      return a**2 + c**2
+    
+    return b**2 + c**2
+    
+    
+print(sum_of_quadr(6,9,3))
+      
+    
